@@ -18,4 +18,4 @@
   the columns by taking their average.This is done by using functions
   such as group_by and summarise_each of the dplyr package in R.
 
-* Write data to text file as mentioned,although CSV is much more readable.
+* Write data to CSV file.
