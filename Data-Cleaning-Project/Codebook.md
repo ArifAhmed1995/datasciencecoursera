@@ -1,6 +1,7 @@
- ##Codebook
- ###Variables in tidy dataset :
- Id : Indicates the identity of the person.
+##Codebook
+##Variables in tidy dataset
+
+Id : Indicates the identity of the person.
  State : Indicates the current state of the subject(i.e.Standing,Walking,Lying,etc)
  
  Summary of the measurements as taken by the devices in the Smartphone ::
@@ -32,12 +33,10 @@
  fBodyBodyGyroMag-mean()         fBodyBodyGyroMag-std()          fBodyBodyGyroMag-meanFreq()    
  fBodyBodyGyroJerkMag-mean()     fBodyBodyGyroJerkMag-std()      fBodyBodyGyroJerkMag-meanFreq()
 
- ###Units : 
- *Any of the above measurements with "Acc" keyword has units :: ms^-2(metres per second squared).Values of those measurements are in
-	  multiples of 'g'.
-	  
- *Any of the above measurements with "Gyro" keyword has units :: rad/s(radians per second)
+###Units :
+* Any of the above measurements with "Acc" keyword has units :: ms^-2(metres per second squared).Values of those measurements are in multiples of 'g'.
 
+* Any of the above measurements with "Gyro" keyword has units :: rad/s(radians per second)
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -94,4 +93,4 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
+
